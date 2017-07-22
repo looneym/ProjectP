@@ -10,4 +10,20 @@ module IntercomUtil
     end
 
 
+    def self.get_all_conversations
+        open_convos = @intercom.conversations.find_all(open: true)
+        closed_convos = @intercom.conversations.find_all(open: false)
+        all_convos = []
+
+        open_convos.each do |i|
+            all_convos << i
+        end   
+
+        closed_convos.each do |i|
+            all_convos << i
+        end   
+
+        return all_convos
+    end
+        
 end    

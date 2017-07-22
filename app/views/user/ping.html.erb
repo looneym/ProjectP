@@ -4,3 +4,11 @@
 <p>
   <%= @user.email %>
 </p>
+
+<% @conversations.each do |conversation| %>
+
+  <p>
+  <%= conversation.id %>
+  </p>
+
+<% end %>
