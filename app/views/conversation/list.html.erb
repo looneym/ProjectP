@@ -1,13 +1,6 @@
-<h1>User#ping</h1>
-<p>Find me in app/views/user/ping.html.erb</p>
+<h1>Conversation#list</h1>
+<p>Find me in app/views/conversation/list.html.erb</p>
 
-<p>
-  <%= @user.email %>
-</p>
-
-
-
- 
 
 
   <table style="width:100%">
@@ -25,7 +18,7 @@
     <td><%= conversation.intercom_id %></td>
     <td><%= conversation.tags %></td>
     <td><%= conversation.user_intercom_id %></td>
-    <td><%= conversation.company_name %></td>
+    <td><%= link_to conversation.company_name , companies_path(:intercom_id => conversation.company_id) %></td>
     <td><%= conversation.company_id %></td>
   </tr>
 
@@ -34,4 +27,5 @@
 
 </table>
 
+ss
 

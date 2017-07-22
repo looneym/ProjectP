@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  intercom_id: MyString
+  messages_count: 1
+  company_name: MyString
+  company_id: MyString
+  total_time_in_hours: 1
+  messages: MyString
+  user_email: MyString
+  user_intercom_id: MyString
+  user_user_id: MyString
+  user_name: MyString
+  assignee: MyString
+  cost: 1
+
+two:
+  intercom_id: MyString
+  messages_count: 1
+  company_name: MyString
+  company_id: MyString
+  total_time_in_hours: 1
+  messages: MyString
+  user_email: MyString
+  user_intercom_id: MyString
+  user_user_id: MyString
+  user_name: MyString
+  assignee: MyString
+  cost: 1
