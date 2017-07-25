@@ -1,3 +1,20 @@
 <p>kek</p>
 
 <%= @company.name %>
+
+
+<p>
+This company has <%= @company_convo_count %> conversations
+</p>
+
+<p>
+This company has a total spend of <%= @company.custom_attributes[:total_spend] %> 
+</p>
+
+<p>
+This company has a total suport cost of <%= get_support_cost %> 
+</p>
+
+<p>
+Company support cost status is: <%= get_cost_status %> 
+</p>
